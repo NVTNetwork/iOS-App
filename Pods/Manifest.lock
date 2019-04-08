@@ -1,0 +1,70 @@
+PODS:
+  - BigInt (3.1.0):
+    - SipHash (~> 1.2)
+  - ContextMenu.iOS (1.1.0)
+  - CryptoSwift (0.13.0)
+  - JGProgressHUD (2.0.3)
+  - PromiseKit (6.5.3):
+    - PromiseKit/CorePromise (= 6.5.3)
+    - PromiseKit/Foundation (= 6.5.3)
+    - PromiseKit/UIKit (= 6.5.3)
+  - PromiseKit/CorePromise (6.5.3)
+  - PromiseKit/Foundation (6.5.3):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.5.3):
+    - PromiseKit/CorePromise
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - secp256k1.swift (0.1.4)
+  - SipHash (1.2.2)
+  - SwiftyJSON (4.2.0)
+  - web3swift (2.0.4):
+    - BigInt (~> 3.1)
+    - CryptoSwift (~> 0.12)
+    - PromiseKit (~> 6.4)
+    - secp256k1.swift
+
+DEPENDENCIES:
+  - ContextMenu.iOS (~> 1.1.0)
+  - JGProgressHUD
+  - SDWebImage (~> 4.0)
+  - SwiftyJSON (~> 4.0)
+  - web3swift (from `https://github.com/BANKEX/web3swift.git`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - BigInt
+    - ContextMenu.iOS
+    - CryptoSwift
+    - JGProgressHUD
+    - PromiseKit
+    - SDWebImage
+    - secp256k1.swift
+    - SipHash
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  web3swift:
+    :git: https://github.com/BANKEX/web3swift.git
+
+CHECKOUT OPTIONS:
+  web3swift:
+    :commit: 99285776d96806f4d1da565b070d8ec88ea4b010
+    :git: https://github.com/BANKEX/web3swift.git
+
+SPEC CHECKSUMS:
+  BigInt: 76b5dfdfa3e2e478d4ffdf161aeede5502e2742f
+  ContextMenu.iOS: 7f3b63915e660f51aada2c4285c40a837b2c9737
+  CryptoSwift: 16e78bebf567bad1c87b2d58f6547f25b74c31aa
+  JGProgressHUD: 12b20a8f4ffe05258f8635c1ab92816e451f904d
+  PromiseKit: c609029bdd801f792551a504c695c7d3098b42cd
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  secp256k1.swift: a7e7a214f6db6ce5db32cc6b2b45e5c4dd633634
+  SipHash: fad90a4683e420c52ef28063063dbbce248ea6d4
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  web3swift: 6b554da5ec34fe3569dab78a7a2ad3b8ce4a7b61
+
+PODFILE CHECKSUM: 7cda953469a0af5a714e064ea1614a8159180ce8
+
+COCOAPODS: 1.5.0
